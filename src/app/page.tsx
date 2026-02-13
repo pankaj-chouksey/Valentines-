@@ -20,7 +20,7 @@ const NO_MESSAGES = [
 
 const PROPOSAL_GIF = "https://media1.tenor.com/m/N7GiO8UsfooAAAAC/bubu-dudu-heart.gif"; // Bubu Dudu Heart Sticker
 const SUCCESS_GIF = "https://media.tenor.com/skdV4MKVLgMAAAAj/bear-hug.gif"; // Bear hug gif
-const COUPLE_IMAGE = "https://static.toiimg.com/thumb/121615492.jpg?imgsize=31114&photoid=121615492&width=600&height=335&resizemode=75"; // Virat & Anushka
+const COUPLE_IMAGE = "justus.jpeg"; // Virat & Anushka
 
 export default function ValentineProposal() {
   const [noClicks, setNoClicks] = useState(0);
@@ -117,15 +117,15 @@ export default function ValentineProposal() {
             </motion.div>
 
             <h2 className="text-4xl md:text-5xl font-serif text-[#ff4d6d] mb-6 italic">
-              Yay! She said YES! 🌸
+              Yay! You said YES! 🌸
             </h2>
 
             <div className="mt-6 p-6 md:p-8 bg-white/60 rounded-2xl border border-pink-100 italic">
               <p className="font-serif text-2xl md:text-4xl text-gray-700 leading-relaxed drop-shadow-sm">
-                "Hazaaron mein kisi ko taqdeer aisi milti hai,<br />
-                Ek raanjha aur ek heer jaisi milti hai...<br />
-                Mubarak ho aapko yeh naya safar,<br />
-                Hume toh zindagi mein bas aapki kami milti hai."
+                "You said yes… and suddenly the world feels lighter.,<br />
+                My forever finally has a name — and it’s yours.<br />
+                This is not just a moment, it’s the beginning of us.<br />
+                From today, shall we start a new journey together??. 💖"
               </p>
             </div>
 
@@ -135,7 +135,7 @@ export default function ValentineProposal() {
               transition={{ delay: 1 }}
               className="mt-8 text-pink-500 font-medium"
             >
-              See you on Feb 14th! 💌
+              See you soon! 💌, Love you 😘
             </motion.div>
           </motion.div>
         )}
