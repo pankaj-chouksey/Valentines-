@@ -111,7 +111,7 @@ export default function ValentineProposal() {
                 alt="Happy Couple"
                 className="w-full h-full object-cover"
               />
-              <div className="absolute top-4 right-4 w-24 h-24 md:w-32 md:h-32">
+              <div className="absolute top-4 right-4 w-12 h-12">
                 <img src={SUCCESS_GIF} alt="Celebration" className="w-full h-full object-contain" />
               </div>
             </motion.div>
